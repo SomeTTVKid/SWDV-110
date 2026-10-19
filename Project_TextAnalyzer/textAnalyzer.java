@@ -36,14 +36,11 @@ public class textAnalyzer {
                 }
             }
 
-
         }
 
         clean.reverse();
 
         String reversed = clean.toString();
-
-        System.out.println(reversed);
 
         System.out.println("=".repeat(40));
 
@@ -51,6 +48,7 @@ public class textAnalyzer {
         System.out.println("Digit Count: " + digitCount);
         System.out.println("Vowel Count: " + vowelCount);
         System.out.println("Letter Count: " + letterCount);
+        System.out.println("Reversed: " + reversed);
 
         System.out.println("=".repeat(40));
 
