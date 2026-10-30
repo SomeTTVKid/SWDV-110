@@ -74,6 +74,8 @@ public static void main(String[] args) {
     LocalDateTime now = LocalDateTime.now();
     LocalDateTime nextClassStart = null;
 
+    System.out.print("\n".repeat(2));
+
     for(LocalDate meeting : sem.meetingDates()){
         LocalDateTime day = LocalDateTime.of(meeting, sem.getClassStart());
 
