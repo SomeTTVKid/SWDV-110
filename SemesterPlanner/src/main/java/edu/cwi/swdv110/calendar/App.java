@@ -137,7 +137,7 @@ public static void main(String[] args) {
             System.out.print("\n".repeat(2));
 
         } catch (IllegalArgumentException e) {
-            System.out.println("Unrecognized date: " + userInput + " try 2027-03-15, 3/15/2027 or Mar 15, 2027");
+            System.out.println("Unrecognized date: " + userInput + " - try 2027-03-15, 3/15/2027 or Mar 15, 2027");
             System.out.print("\n".repeat(2));
         }
     }
