@@ -3,6 +3,7 @@ Which version is easier to read? Which is easier to change?
 
 1a. I would choose totalMinutes to change to a for loop:
 ```java
+public static long totalMinutes(List<Play> plays, Predicate<Play> filter) {
     int secondsInMinute = 60;
     int totalSeconds = 0;
     for(Play play : plays){
@@ -11,6 +12,7 @@ Which version is easier to read? Which is easier to change?
         }
     }
     return totalSeconds / secondsInMinute;
+}
 ```
 1a. This is much easier to read but would require more steps to change.  
 
