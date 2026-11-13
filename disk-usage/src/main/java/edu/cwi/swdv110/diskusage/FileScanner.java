@@ -210,11 +210,11 @@ public final class FileScanner {
         }
 
         sb.append(file.getName())
-        .append(file.isDirectory() ? "/" : "")
-        .append(" (")
-        .append(humanSize(totalSize(file)))
-        .append(')')
-        .append(System.lineSeparator());
+            .append(file.isDirectory() ? "/" : "")
+            .append(" (")
+            .append(humanSize(totalSize(file)))
+            .append(')')
+            .append(System.lineSeparator());
 
         if(!file.isDirectory() || depth >= maxDepth){
             return;
