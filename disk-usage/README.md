@@ -10,7 +10,7 @@
 | 8000 | 175.6 | 2.2 |
 | 16000 | 765.3 | 5.1 |
 
-1a. Each time n double, selection sort gets ROUGHLY 4 times longer hence O(n^2) where 2^2 = 4
+1a. Each time n double, selection sort gets ROUGHLY 4 times longer hence O(n^2) where 2^2 = 4. 
     Merge sort gets ROUGHLY 2 times longer, keeping in line with O(n log n) where the first n doubles, log n only increases a little.   
 
 2. What is the Big-O of `totalSize` in terms of *f*, the number of files and folders? Why?  
